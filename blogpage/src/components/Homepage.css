@@ -1,0 +1,24 @@
+.body{
+    position: relative;
+    display: flex;
+    /* gap: 1rem; */
+
+}
+
+
+/* .app-main {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .stick {
+    overflow: hidden;
+  }
+  
+  .feed {
+    overflow: scroll;
+  }
+
+  .feed::-webkit-scrollbar {
+    display: none;
+  } */

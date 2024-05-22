@@ -1,0 +1,46 @@
+p{
+    margin-bottom: 0.5rem !important;
+ }
+
+.crd-bdy{
+    /* width: 90%; */
+    /* background-color: #222831 !important; */
+    
+    height: 95% !important;
+    text-align: left;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+    border: 0 !important;
+    /* color: #EEEEEE !important; */
+    
+}
+
+.crd-img{
+    height: 75%;
+    aspect-ratio: 4/3;
+    transition: all ease-in 250ms;
+   
+}
+
+.crd-ttl{
+    font-size: 1.65rem !important;
+    
+}
+
+.crd-txt{
+    display: none;
+}
+
+.crd-bdy:hover .crd-img{
+    height: 0%;
+    filter: brightness(30%);
+    position: absolute;
+    
+}
+
+.crd-bdy:hover .crd-txt{
+    display: block;
+}
+
